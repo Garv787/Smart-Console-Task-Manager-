@@ -1,15 +1,22 @@
 # Smart Console-Based Task Manager
-A C++ console application for managing tasks with CRUD operations.
+
+A console-based task manager built using C++ with file handling and linked list implementation.
 
 ## Features
 - Add, edit, delete tasks
-- Export tasks to CSV
-- Secure login system
+- Search and filter tasks
+- CSV export
+- User authentication
+- Persistent storage using file handling
 
-## Technologies
-C++, File Handling, Linked List
+## Tech Stack
+- C++
+- Linked List
+- File Handling
+- CSV Export
 
 ## How to Run
-1. Clone the repo
-2. Compile using g++ compiler
-3. Run the executable
+1. Compile:
+   g++ main.cpp -o taskmanager
+2. Run:
+   ./taskmanager
